@@ -4,7 +4,7 @@
   "description": "This service is created to handle cron jobs as well as api when required from the server.",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "test": "npm test"
   },
   "keywords": [
