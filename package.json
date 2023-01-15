@@ -1,0 +1,20 @@
+{
+  "name": "kotak_backend",
+  "version": "0.0.1",
+  "description": "This service is created to handle cron jobs as well as api when required from the server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "kotak",
+    "dronahq"
+  ],
+  "author": "Alihasan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
