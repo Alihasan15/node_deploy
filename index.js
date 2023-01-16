@@ -24,6 +24,9 @@ app.use(express.urlencoded({extended:false}))
 
 // app.use('/api/',require('./routes/default'))
 app.get('/',(req,res)=>{
+    res.send('Hello World Index');
+})
+app.get('/lll',(req,res)=>{
     // console.log(connection);
     connection.query("SELECT 1 + 1 AS solution", function (err, result, fields) {
         if (err) {
@@ -39,5 +42,6 @@ app.get('/',(req,res)=>{
     });
     connection.end();
 })
+
 
 app.listen(portNo,()=>console.log(`Server started on port ${portNo}`))
